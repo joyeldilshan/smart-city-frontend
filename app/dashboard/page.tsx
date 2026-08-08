@@ -118,7 +118,7 @@ export default function Dashboard() {
 
       {/* ---------- HEADER ---------- */}
       <header className="sticky top-0 z-30 backdrop-blur-xl bg-slate-950/70 border-b border-slate-800/70">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex flex-wrap items-center justify-between gap-y-3">
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 rounded-xl bg-cyan-500/15 border border-cyan-500/40 flex items-center justify-center text-lg shadow-[0_0_20px_rgba(34,211,238,0.25)]">
               🏙
@@ -134,7 +134,7 @@ export default function Dashboard() {
             </div>
           </div>
 
-          <div className="flex items-center gap-2.5">
+          <div className="flex items-center gap-1.5 sm:gap-2.5 flex-wrap">
             <span
               className="text-[11px] font-bold px-3 py-1.5 rounded-lg border"
               style={{
